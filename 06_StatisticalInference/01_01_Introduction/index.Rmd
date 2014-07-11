@@ -21,6 +21,8 @@ data.
 In our class, we wil define formal statistical inference as settings where one wants to infer facts about a population using noisy
 statistical data where uncertainty must be accounted for.
 
+epb: we have estimators. they have estimands. what are they? if we want to use our dataset to draw a conclusion,
+we need to make some inferences.
 ---
 
 ## Motivating example: who's going to win the election?
@@ -36,6 +38,8 @@ may change their vote by the time the election occurs.
 How do we collect a reasonable subset of data and quantify the
 uncertainty in the process to produce a good guess at who will win?
 
+epb: collect a reasonable amount of data and make a reasonable prediction
+
 ---
 
 ## Motivating example: is hormone replacement therapy effective? 
@@ -50,6 +54,7 @@ evidence?
 
 See WHI writing group paper JAMA 2002, Vol 288:321 - 333. for the paper and Steinkellner et al. Menopause 2012, Vol 19:616 621 for adiscussion of the long term impacts
 
+epb: want to make conclusions about #1 or #2, we need to make some inferences
 ---
 
 ## Motivating example: ECMO
@@ -57,6 +62,9 @@ See WHI writing group paper JAMA 2002, Vol 288:321 - 333. for the paper and Stei
 In 1985 a group at a major neonatal intensive care center published the results of a trial comparing a standard treatment and a promising new extracorporeal membrane oxygenation treatment (ECMO) for newborn infants with severe respiratory failure. **Ethical considerations lead to a statistical randomization scheme whereby one infant received the control therapy, thereby opening the study to sample-size based criticisms.**
 
 For a review and statistical discussion, see Royall Statistical Science 1991, Vol 6, No. 1, 52-88
+
+epb: ethical considerations meant that the results were so overwhelming in one case where they didn't continue with the trial
+epb: there was a lot of evidence the treatment was effective but equipoise: can you give a control when you know it works
 
 ---
 
@@ -87,7 +95,7 @@ a population quantity (the proportion of people who will
 4. Determine the impact of a policy? ("If we reduce polution levels,
   will asthma rates decline?")
 
-
+epb: #4 averages over the mechanism, rather than looking at the mechanism
 ---
 ## Example tools of the trade 
 
@@ -107,6 +115,9 @@ approximated.
 9. Permutation, randomization and exchangeability testing: the process 
 of using data permutations to perform inferences.
 
+epb: probability model and sampling model are all you need to make an eestimate/conclusion
+epb: #8 and #9 are data-based inferences
+
 ---
 ## Different thinking about probability leads to different styles of inference
 
@@ -116,6 +127,7 @@ styles of inference. Two broad categories that get discussed a lot are:
 1. Frequency probability: is the long run proportion of
  times an event occurs in independent, identically distributed 
  repetitions.
+ epb: like flipping a coin, limit of heads will go to 50%
 2. Frequency inference: uses frequency interpretations of probabilities
 to control error rates. Answers questions like "What should I decide
 given my data controlling the long run proportion of mistakes I make at
@@ -126,6 +138,7 @@ of beliefs to perform inference. Answers questions like "Given my subjective bel
 should I believe now?"
 
 Data scientists tend to fall within shades of gray of these and various other schools of inference. 
+epb: using the best tool for the job based on a variety of different factors
 
 ---
 ## In this class
