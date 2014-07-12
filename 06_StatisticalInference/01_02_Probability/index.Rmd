@@ -25,6 +25,8 @@ mode        : selfcontained # {standalone, draft}
   - Example: die roll is a four, $\omega = 4$
 - $\emptyset$ is called the **null event** or the **empty set**
 
+epb: probability operates on sets
+
 ---
 
 ## Interpretation of set operations
@@ -39,6 +41,11 @@ Normal set operations have particular interpretations in this setting
 6. $E \cap F=\emptyset$ means that $E$ and $F$ are **mutually exclusive**, or cannot both occur
 7. $E^c$ or $\bar E$ is the event that $E$ does not occur
 
+epb: if w is 4 and e is the set of {2,4,6} (evens), and f is the set of {2,4,6,8} then:
+#1 means that w implies e (4 is an even number)
+#2 if w=5, it implies e is false
+#3 it's inherent that if e is true, f is also true
+#4
 ---
 
 ## Probability
